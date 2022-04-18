@@ -1,0 +1,28 @@
+<html lang="en" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="location">
+        <h1 class="location-area">Location Area</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree">Farenheit: 34</h2>
+                <span>F</span>
+            </div>
+        <div class="temperature-description">Nope, I'm gonna take my butt back in the house</div>
+    </div>
+
+    <!-- skycons is not compatible w the open weather api for icon placement.  Instead use Font Awesome SVG icons and an If statement that ads each icon as a class to the icon span -->
+    <script src="skycons.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
